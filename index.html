@@ -5,10 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milestone-1</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Hello Programming Hero </h1>
+    <h1>I Am Practicing O To Intermediate</h1>
+
+    <h2>ইমেজ ম্যাপের উদাহরণ</h2>
+
+    <!-- ইমেজ যেখানে ক্লিকযোগ্য এলাকা থাকবে -->
+    <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEsVpWm4FA7qzRziidqTgy1aQSiuR94TnFeQ&s
+        alt="World Map" usemap="#worldmap" width="600">
+
+    <!-- ম্যাপ ডিফাইন করা হচ্ছে -->
+    <map name="worldmap">
+        <!-- গুগলের জন্য একটি রেকট্যাঙ্গল ক্লিকযোগ্য এলাকা -->
+        <area shape="rect" coords="50,50,200,150" href="https://www.google.com" alt="Google">
+
+        <!-- ইউটিউবের জন্য একটি বৃত্ত ক্লিকযোগ্য এলাকা -->
+        <area shape="circle" coords="300,100,50" href="https://www.youtube.com" alt="YouTube">
+
+        <!-- উইকিপিডিয়ার জন্য একটি পলিগন ক্লিকযোগ্য এলাকা -->
+        <area shape="poly" coords="400,50,450,100,400,150,350,100" href="https://www.wikipedia.org" alt="Wikipedia">
+    </map>
+
+    <!-- HTML Table start -->
+    <table style="width: 100%;margin-top: 20px;">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Teachanalyzen</td>
+            <td>contact@techanlyzen.com</td>
+            <td>Bangladesh</td>
+        </tr>
+    </table>
+    <!-- HTML Table end -->
+
+    <h1>HTML Uniform Resource Locators
+    </h1>
+    <p>scheme - defines the type of Internet service (most common is http or https)
+        prefix - defines a domain prefix (default for http is www)
+        domain - defines the Internet domain name (like w3schools.com)
+        port - defines the port number at the host (default for http is 80)
+        path - defines a path at the server (If omitted: the root directory of the site)
+        filename - defines the name of a document or resource</p>
+
 </body>
 
 </html>
